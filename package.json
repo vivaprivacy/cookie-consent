@@ -1,0 +1,42 @@
+{
+  "name": "@viva-privacy/cookie-notice-banner",
+  "version": "1.0.0",
+  "description": "Best GDPR banner",
+  "main": "build/cookie-notice-banner.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VIVA-PRIVACY/cookie-notice-banner.git"
+  },
+  "keywords": [
+    "GDPR",
+    "‎customize",
+    "cookie",
+    "notice",
+    "vanilla",
+    "js"
+  ],
+  "author": "balandmitrii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VIVA-PRIVACY/cookie-notice-banner/issues"
+  },
+  "homepage": "https://github.com/VIVA-PRIVACY/cookie-notice-banner#readme",
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.1.3",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "js-cookie": "^2.2.1"
+  }
+}

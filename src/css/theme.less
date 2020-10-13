@@ -1,0 +1,849 @@
+#cookiebanner-root {
+  .cb {
+    @alias: .cb;
+    border-style: solid;
+    border-width: 2px;
+
+    &@{alias}_without-mt {
+      border-top-width: 0;
+    }
+
+    &@{alias}_without-mb {
+      border-bottom-width: 0;
+    }
+
+    &@{alias}_without-ml {
+      border-left-width: 0;
+    }
+
+    &@{alias}_without-mr {
+      border-right-width: 0;
+    }
+
+    &_CodGrayWhite {
+      background: #141414;
+      color: #fff;
+      border-color: #fff;
+
+      @{alias}__b_decline {
+        color: #fff;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#fff, 0);
+          color: #fff;
+          border: solid 2px #fff;
+
+          &:hover {
+            background: lighten(#fff, 6);
+            color: #141414;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background: #fff;
+          box-shadow: 0px 4px 4px rgba(36, 41, 51, 0.25);
+          color: #141414;
+
+          &:hover {
+            background: darken(#fff, 6);
+            color: #141414;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #787878;
+
+        &:hover {
+          color: lighten(#787878, 10);
+        }
+      }
+    }
+
+    &_BigStoneTurquoise {
+      background: #122c34;
+      color: #fff;
+      border-color: #558898;
+
+      @{alias}__b_decline {
+        color: #fff;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+          color: #44cfcb;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#44cfcb, 0);
+          color: #44cfcb;
+          border: solid 2px #44cfcb;
+
+          &:hover {
+            background: lighten(#44cfcb, 6);
+            color: #122c34;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background: #44cfcb;
+          color: #122c34;
+
+          &:hover {
+            background: lighten(#44cfcb, 6);
+            color: #122c34;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #44cfcb;
+
+        &:hover {
+          color: lighten(#44cfcb, 6);
+        }
+      }
+    }
+
+    &_SeaweedAtlantis {
+      background: #19220e;
+      color: #fff;
+      border-color: #847a4d;
+
+      @{alias}__b_decline {
+        color: #fff;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+          color: #9bc53d;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#9bc53d, 0);
+          color: #9bc53d;
+          border: solid 2px #6c8b25;
+
+          &:hover {
+            background: #9bc53d;
+            border: solid 2px #9bc53d;
+            color: #fff;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background: linear-gradient(180deg, #9bc53d 0%, #abdb41 100%);
+          color: #fff;
+          // box-shadow: 0px 2px 0px #6c8b25;
+          transition: none;
+
+          &:hover {
+            background: lighten(#9bc53d, 6);
+            color: #fff;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #9bc53d;
+
+        &:hover {
+          color: lighten(#9bc53d, 6);
+        }
+      }
+    }
+
+    &_CharadeJaffa {
+      background: #2b303a;
+      color: #fff;
+      border-color: #6e7687;
+
+      @{alias}__b_decline {
+        color: #fff;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+          color: #d64933;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#d64933, 0);
+          color: #d64933;
+          border: solid 2px #d64933;
+
+          &:hover {
+            background: #f19947;
+            border: solid 2px #f19947;
+            color: #fff;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background-image: linear-gradient(180deg, #d64933 0%, #f19947 100%);
+          color: #fff;
+          box-shadow: 0px 4px 4px rgba(36, 41, 51, 0.25);
+          transition: none;
+
+          &:hover {
+            background: lighten(#d64933, 6);
+            color: #fff;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #d64933;
+
+        &:hover {
+          color: lighten(#d64933, 6);
+        }
+      }
+    }
+
+    &_RhinoShakespeare {
+      background: #29335c;
+      color: #fff;
+      border-color: #71a4b5;
+
+      @{alias}__b_decline {
+        color: #fff;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+          color: #3e92cc;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#3e92cc, 0);
+          color: #3e92cc;
+          border: solid 2px #3e92cc;
+
+          &:hover {
+            background: #3e92cc;
+            color: #fff;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background: #3e92cc;
+          color: #fff;
+
+          &:hover {
+            background: lighten(#3e92cc, 6);
+            color: #fff;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #3e92cc;
+
+        &:hover {
+          color: lighten(#3e92cc, 6);
+        }
+      }
+    }
+
+    &_CloudBurstGorse {
+      background: #1c2541;
+      color: #fff;
+      border-color: #808fb6;
+
+      @{alias}__b_decline {
+        color: #fff;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+          color: #fff05a;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#fff05a, 0);
+          color: #fff05a;
+          border: solid 2px #fff05a;
+
+          &:hover {
+            background: #fff05a;
+            color: #1c2541;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background: #fff05a;
+          color: #1c2541;
+
+          &:hover {
+            background: lighten(#fff05a, 6);
+            color: #1c2541;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #f3a712;
+
+        &:hover {
+          color: lighten(#f3a712, 6);
+        }
+      }
+    }
+
+    &_SanJuanGold {
+      background: #324b6a;
+      color: #fff;
+      border-color: #6890c2;
+
+      @{alias}__b_decline {
+        color: #fff;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+          color: #ffd600;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#ffd600, 0);
+          color: #ffd600;
+          border: solid 2px #ffd600;
+
+          &:hover {
+            background: #ffd600;
+            color: #324b6a;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background: #ffd600;
+          color: #324b6a;
+
+          &:hover {
+            background: lighten(#ffd600, 6);
+            color: #324b6a;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #ffd600;
+
+        &:hover {
+          color: lighten(#ffd600, 6);
+        }
+      }
+    }
+
+    &_BlueChillCanary {
+      background: #0a8d88;
+      color: #fff;
+      border-color: #31c9c3;
+
+      @{alias}__b_decline {
+        color: #fff;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+          color: #d3ff55;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#d3ff55, 0);
+          color: #d3ff55;
+          border: solid 2px #d3ff55;
+
+          &:hover {
+            background: #d3ff55;
+            color: #282828;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background: #d3ff55;
+          color: #282828;
+          box-shadow: 0px 2px 4px rgba(7, 111, 107, 0.2);
+
+          &:hover {
+            background: lighten(#d3ff55, 6);
+            color: #282828;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #d3ff55;
+
+        &:hover {
+          color: lighten(#d3ff55, 6);
+        }
+      }
+    }
+
+    &_AffairBrightSun {
+      background: #723c86;
+      color: #fff;
+      border-color: #a86dbe;
+
+      @{alias}__b_decline {
+        color: #fff;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+          color: #ffd23f;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#ffd23f, 0);
+          color: #ffd23f;
+          border: solid 2px #ffd23f;
+
+          &:hover {
+            background: #ffd23f;
+            color: #282828;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background: #ffd23f;
+          box-shadow: 0px 2px 4px rgba(75, 35, 90, 0.2);
+          color: #282828;
+
+          &:hover {
+            background: lighten(#ffd23f, 6);
+            color: #282828;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #ffd23f;
+
+        &:hover {
+          color: lighten(#ffd23f, 6);
+        }
+      }
+    }
+
+    &_PorcelainMalibu {
+      background: #e6edec;
+      color: #282828;
+      border-color: #cad1d0;
+
+      @{alias}__b_decline {
+        color: #282828;
+        opacity: 0.8;
+
+        &:hover {
+          opacity: 1;
+          color: #6cd4ff;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#6cd4ff, 0);
+          color: #6cd4ff;
+          border: solid 2px #6cd4ff;
+
+          &:hover {
+            background: #6cd4ff;
+            color: #282828;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background: #6cd4ff;
+          // box-shadow: 0px 2px 0px #35b6ec;
+          color: #2b303a;
+
+          &:hover {
+            background: lighten(#6cd4ff, 6);
+            color: #2b303a;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #6cd4ff;
+
+        &:hover {
+          color: lighten(#6cd4ff, 6);
+        }
+      }
+
+      @{alias}__powered-by {
+        color: #282828;
+      }
+    }
+
+    &_AliceBlueCornflowerBlue {
+      background: #eef8ff;
+      color: #282828;
+      border-color: #d5ddeb;
+
+      @{alias}__b_decline {
+        color: #7678ed;
+        opacity: 0.7;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#7678ed, 0);
+          color: #7678ed;
+          border: solid 2px #7678ed;
+
+          &:hover {
+            background: #7678ed;
+            color: #fff;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background: #7678ed;
+          box-shadow: 0px 2px 6px rgba(156, 179, 194, 0.16);
+          color: #fff;
+
+          &:hover {
+            background: lighten(#7678ed, 6);
+            color: #fff;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #7678ed;
+
+        &:hover {
+          color: lighten(#7678ed, 6);
+        }
+      }
+
+      @{alias}__powered-by {
+        color: #282828;
+      }
+    }
+
+    &_LinkWaterChathamsBlue {
+      background: #ebf2fa;
+      color: #282828;
+      border-color: #d2deeb;
+
+      @{alias}__b_decline {
+        color: #0f4c81;
+        opacity: 0.7;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#0f4c81, 0);
+          color: #0f4c81;
+          border: solid 2px #0f4c81;
+
+          &:hover {
+            background: #0f4c81;
+            color: #fff;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background: #0f4c81;
+          color: #fff;
+
+          &:hover {
+            background: lighten(#0f4c81, 6);
+            color: #fff;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #0f4c81;
+
+        &:hover {
+          color: lighten(#0f4c81, 6);
+        }
+      }
+
+      @{alias}__powered-by {
+        color: #282828;
+      }
+    }
+
+    &_SazeracTuscany {
+      background: #fff4e0;
+      color: #282828;
+      border-color: #ebdeca;
+
+      @{alias}__b_decline {
+        color: #cf5c36;
+        opacity: 0.7;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#cf5c36, 0);
+          color: #cf5c36;
+          border: solid 2px #cf5c36;
+
+          &:hover {
+            background: #cf5c36;
+            color: #fff;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background: #cf5c36;
+          color: #fff;
+
+          &:hover {
+            background: lighten(#cf5c36, 6);
+            color: #fff;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #cf5c36;
+
+        &:hover {
+          color: lighten(#cf5c36, 6);
+        }
+      }
+
+      @{alias}__powered-by {
+        color: #282828;
+      }
+    }
+
+    &_CatskillWhiteAquaForest {
+      background: #e9f4f3;
+      color: #282828;
+      border-color: #d1e4e3;
+
+      @{alias}__b_decline {
+        color: #57a773;
+        opacity: 0.7;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#57a773, 0);
+          color: #57a773;
+          border: solid 2px #57a773;
+
+          &:hover {
+            background: #57a773;
+            color: #fff;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background: #57a773;
+          color: #fff;
+          box-shadow: 0px 2px 6px rgba(165, 190, 188, 0.2);
+
+          &:hover {
+            background: lighten(#57a773, 6);
+            color: #fff;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #57a773;
+
+        &:hover {
+          color: lighten(#57a773, 6);
+        }
+      }
+
+      @{alias}__powered-by {
+        color: #282828;
+      }
+    }
+
+    &_WhiteMineShaft {
+      background: #ffffff;
+      color: #282828;
+      border-color: #000;
+      box-shadow: 0px 2px 24px rgba(156, 156, 156, 0.2);
+
+      @{alias}__b_decline {
+        color: #282828;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      @{alias}__b_allow,
+      @{alias}__b_dismiss {
+        &@{alias}__b_blank-round,
+        &@{alias}__b_blank-rounded,
+        &@{alias}__b_blank-rectangle {
+          background: fade(#282828, 0);
+          color: #282828;
+          border: solid 2px #282828;
+
+          &:hover {
+            background: #282828;
+            color: #fff;
+          }
+        }
+
+        &@{alias}__b_filled-round,
+        &@{alias}__b_filled-rounded,
+        &@{alias}__b_filled-rectangle,
+        &@{alias}__b_vertical {
+          background: #282828;
+          color: #fff;
+
+          &:hover {
+            background: lighten(#282828, 6);
+            color: #fff;
+          }
+        }
+      }
+
+      @{alias}__link {
+        color: #787878;
+
+        &:hover {
+          color: lighten(#787878, 6);
+        }
+      }
+
+      @{alias}__powered-by {
+        color: #282828;
+      }
+    }
+  }
+}

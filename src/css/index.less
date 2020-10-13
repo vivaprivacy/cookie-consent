@@ -1,0 +1,87 @@
+@import "./vars";
+@import "./buttons";
+@import "./theme";
+@import "./bannerBlockType";
+@import "./bannerBlockPosition";
+// @import "./position";
+@import "./power_by";
+@import "./blind";
+@import "./animation";
+
+#cookiebanner-root {
+  .cb {
+    font-size: 14.5px;
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    line-height: 24px;
+    position: relative;
+    z-index: 1;
+
+    &__aside {
+      display: flex;
+      align-items: center;
+    }
+
+    &__content {
+      flex: 1;
+    }
+
+    &__content-text {
+      display: inline;
+      padding-right: 0.31em;
+    }
+
+    &__link {
+      color: inherit;
+      transition: all 0.25s;
+    }
+  }
+
+  .cb__hidden {
+    animation: hide_root 1 0.15s forwards;
+  }
+
+  &.cb__hide {
+    display: none;
+  }
+}
+
+@media (max-width: 639.98px) {
+  #cookiebanner-root {
+    .cb {
+      &__aside {
+        width: 100%;
+        display: flex;
+        flex-direction: row !important;
+        padding: 14px 0;
+
+        .cb__b {
+          flex: 1;
+          margin: 0 auto;
+          max-width: calc(50% - 5px);
+
+          &:nth-child(1) {
+            margin: 0 auto 0 0;
+          }
+
+          &:nth-child(2) {
+            margin: 0 0 0 auto;
+          }
+
+          &:only-child {
+            margin: 0 auto !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes hide_root {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

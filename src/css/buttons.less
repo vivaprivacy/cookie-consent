@@ -1,0 +1,73 @@
+#cookiebanner-root {
+  .cb__b {
+    @alias: .cb;
+
+    padding: 0 35px;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    letter-spacing: 0.015em;
+    transition: all 0.2s;
+    background: fade(white, 0);
+
+    &_decline {
+      border: 0;
+      background: fade(@black, 0);
+    }
+
+    &_allow,
+    &_dismiss {
+      &@{alias}__b_filled-round,
+      &@{alias}__b_blank-rounded,
+      &@{alias}__b_blank-rectangle {
+        background: fade(@black, 0);
+      }
+
+      &@{alias}__b_vertical,
+      &@{alias}__b_blank-round,
+      &@{alias}__b_filled-round {
+        border-radius: 32px;
+      }
+
+      &@{alias}__b_filled-rectangle,
+      &@{alias}__b_filled-rounded,
+      &@{alias}__b_filled-round {
+        border: 0;
+      }
+
+      &@{alias}__b_blank-rectangle,
+      &@{alias}__b_filled-rectangle {
+        border-radius: 0;
+      }
+
+      &@{alias}__b_vertical,
+      &@{alias}__b_blank-round,
+      &@{alias}__b_blank-rectangle,
+      &@{alias}__b_blank-rounded {
+        border: solid 2px;
+      }
+
+      &@{alias}__b_blank-rounded,
+      &@{alias}__b_filled-rounded {
+        border-radius: 6px;
+      }
+    }
+  }
+}
+
+@media (max-width: 639.98px) {
+  #cookiebanner-root {
+    .cb__b {
+      padding: 0;
+    }
+  }
+}

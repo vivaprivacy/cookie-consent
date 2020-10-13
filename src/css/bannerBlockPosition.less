@@ -1,0 +1,48 @@
+#cookiebanner-root {
+  .cb {
+    @alias: .cb;
+
+    &@{alias}_top {
+      top: 0;
+    }
+
+    &@{alias}_bottom {
+      bottom: 0;
+    }
+
+    &@{alias}_top-scroll ~ @{alias}__blind,
+    &@{alias}_bottom-scroll ~ &@{alias}__blind {
+      display: none !important;
+    }
+
+    &@{alias}_bottom-left {
+      left: 0;
+      bottom: 0;
+    }
+
+    &@{alias}_top-left {
+      left: 0;
+      top: 0;
+    }
+
+    &@{alias}_bottom-right {
+      right: 0;
+      bottom: 0;
+    }
+
+    &@{alias}_top-right {
+      top: 0;
+      right: 0;
+    }
+
+    &@{alias}_center {
+      width: 400px;
+      margin: 0 auto;
+      top: 50vh;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+      max-width: calc(100% - 20px);
+    }
+  }
+}
