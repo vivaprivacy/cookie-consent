@@ -1,5 +1,5 @@
 {
-  "name": "@viva-privacy/cookie-notice-banner",
+  "name": "cookie-notice-banner",
   "version": "1.0.0",
   "description": "Best GDPR banner",
   "main": "build/cookie-notice-banner.min.js",
