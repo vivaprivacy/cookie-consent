@@ -3,18 +3,7 @@
 ![Examples](https://raw.githubusercontent.com/VIVA-PRIVACY/cookie-notice-banner/main/images/screenshot-1.png)
 
 ## Installing
-Using npm:
-```sh
-$ npm install cookie-notice-banner
-```
-Using bower:
-```sh
-$ bower install cookie-notice-banner
-```
-Using yarn:
-```sh
-$ yarn add cookie-notice-banner
-```
+
 Using jsDelivr CDN:
 ```sh
 <script src="https://cdn.jsdelivr.net/npm/@viva-privacy/cookie-notice-banner@1.0.0/build/cookie-notice-banner.min.js"></script>
