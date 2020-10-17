@@ -6,7 +6,7 @@
 
 Using jsDelivr CDN:
 ```sh
-<script src="https://cdn.jsdelivr.net/npm/@viva-privacy/cookie-consent@1.0.0/build/cookie-consent.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@vivaprivacy/cookie-consent@1.0.0/build/cookie-consent.min.js"></script>
 ```
 
 | Prop | Type | Description |Values|
