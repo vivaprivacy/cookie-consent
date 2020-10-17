@@ -1,12 +1,12 @@
 # Cookie notice with a lot of customization features
 
-![Examples](https://raw.githubusercontent.com/VIVA-PRIVACY/cookie-notice-banner/main/images/screenshot-1.png)
+![Examples](https://raw.githubusercontent.com/VIVA-PRIVACY/cookie-consent/main/images/screenshot-1.png)
 
 ## Installing
 
 Using jsDelivr CDN:
 ```sh
-<script src="https://cdn.jsdelivr.net/npm/@viva-privacy/cookie-notice-banner@1.0.0/build/cookie-notice-banner.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@viva-privacy/cookie-consent@1.0.0/build/cookie-consent.min.js"></script>
 ```
 
 | Prop | Type | Description |Values|

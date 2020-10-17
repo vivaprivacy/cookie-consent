@@ -33,7 +33,7 @@ module.exports = {
     extensions: [".ts", ".js"]
   },
   output: {
-    filename: "cookie-notice-banner.min.js",
+    filename: "cookie-consent.min.js",
     path: path.resolve(__dirname, "build")
   }
 };
