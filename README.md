@@ -6,7 +6,19 @@
 
 Using jsDelivr CDN:
 ```sh
-<script src="https://cdn.jsdelivr.net/npm/@vivaprivacy/cookie-consent@1.0.0/build/cookie-consent.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@vivaprivacy/cookie-consent@1.0.2/build/cookie-consent.min.js"></script>
+```
+
+#### Classic
+```
+const CC = window.CookieConsent
+```
+
+##### Initialization:
+```
+const cc = new CC({
+  //...options
+})
 ```
 
 | Prop | Type | Description |Values|

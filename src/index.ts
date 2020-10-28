@@ -21,7 +21,7 @@ import "./css/index.less";
 
 declare global {
   interface Window {
-    CookieBanner: typeof CookieBanner;
+    CookieConsent: typeof CookieBanner;
   }
 }
 
@@ -425,4 +425,4 @@ class CookieBanner implements ICookieBanner {
   }
 }
 
-window.CookieBanner = CookieBanner;
+window.CookieConsent = CookieBanner;
