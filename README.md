@@ -1,6 +1,6 @@
 # Cookie notice with a lot of customization features
 
-![Examples](https://raw.githubusercontent.com/VIVA-PRIVACY/cookie-consent/main/images/screenshot-1.png)
+![Examples](https://raw.githubusercontent.com/vivaprivacy/cookie-consent/main/images/screenshot-1.png)
 
 ## Installing
 
