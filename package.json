@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "@vivaprivacy/cookie-consent",
   "description": "Best GDPR banner",
   "main": "build/cookie-consent.min.js",
@@ -18,7 +18,17 @@
     "cookie",
     "notice",
     "vanilla",
-    "js"
+    "js",
+    "cookie consent",
+    "GDPR",
+    "CCPA",
+    "LGPD",
+    "cookie notice",
+    "cookie banner",
+    "cookie popup",
+    "banner",
+    "law",
+    "compliance"
   ],
   "author": "balandmitrii",
   "license": "ISC",
