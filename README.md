@@ -63,5 +63,5 @@ const cc = new CC({
 |onDecline|function|Function to call after a user clicks on the decline button|Example: function() {console.log("clicked decline button");}|
 |onDismiss|function|Function to call after a user clicks on the dismiss button|Example: function() {console.log("clicked dismiss button");}|
 |onRestore|function|Function to call after the banner is shown again|Example: function() {console.log("restores");}|
-|onInit|function|Function to call on banner initizalization|Example: function(isAllow) {console.log("plugin has been initialzed", isAllow);}|
-|onUpdate|function|Function to call on banner update|Example: function(isAllow) {console.log("updated", isAllow);}|
+|onInit|function(onAllow)|Function to call on banner initizalization|Example: function(isAllow) {console.log("plugin has been initialzed", isAllow);}|
+|onUpdate|function(onAllow)|Function to call on banner update|Example: function(isAllow) {console.log("updated", isAllow);}|
