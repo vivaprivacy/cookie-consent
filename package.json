@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "name": "@vivaprivacy/cookie-consent",
   "description": "Best GDPR banner",
   "main": "build/cookie-consent.min.js",
